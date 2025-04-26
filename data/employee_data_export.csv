@@ -1,0 +1,501 @@
+employee_id,age,gender,education,department,position,salary,experience,performance_score,satisfaction_score,overtime,attrition,training_hours,cluster
+1,50,Male,Bachelor,IT,Middle,7565,14,85,9,No,No,32,0
+2,57,Male,Bachelor,Finance,Junior,7073,19,60,7,Yes,No,6,0
+3,45,Male,Master,HR,Middle,5263,14,100,8,No,No,40,1
+4,25,Male,Master,IT,Middle,6560,6,62,8,Yes,No,37,0
+5,54,Male,High School,IT,Middle,6311,14,75,8,No,No,26,0
+6,58,Male,Master,IT,Senior,2987,1,64,8,No,No,8,2
+7,59,Female,Master,IT,Junior,3625,4,92,7,No,No,12,1
+8,62,Male,High School,Finance,Senior,5897,16,83,9,No,No,15,2
+9,51,Female,Master,Operations,Senior,5052,3,68,7,No,No,28,0
+10,59,Male,Bachelor,Finance,Manager,4937,15,82,5,Yes,No,0,1
+11,47,Male,Master,Operations,Manager,6427,13,97,7,No,No,3,1
+12,45,Male,Master,HR,Manager,2000,18,75,9,Yes,No,13,2
+13,33,Male,Bachelor,Marketing,Middle,5913,16,98,8,Yes,Yes,31,1
+14,51,Male,Master,IT,Middle,3759,15,65,6,Yes,No,7,0
+15,28,Female,Master,Marketing,Senior,4342,16,80,8,No,No,31,2
+16,31,Male,Bachelor,IT,Junior,3707,5,69,7,No,Yes,19,0
+17,46,Male,Bachelor,Finance,Junior,5604,16,76,7,No,No,16,0
+18,52,Male,High School,IT,Junior,2000,19,84,10,Yes,Yes,23,2
+19,56,Female,Bachelor,Finance,Middle,3806,13,79,7,Yes,No,37,1
+20,64,Female,High School,Operations,Manager,2000,17,77,7,Yes,No,18,2
+21,54,Male,PhD,Marketing,Senior,2982,9,83,10,No,No,18,2
+22,33,Female,High School,Operations,Junior,6342,4,70,8,No,Yes,36,0
+23,22,Female,High School,Finance,Middle,2000,7,79,9,No,No,27,2
+24,28,Female,PhD,Finance,Senior,4195,13,76,9,No,No,40,2
+25,31,Female,Master,Finance,Manager,2766,6,93,7,No,Yes,29,1
+26,45,Male,Bachelor,IT,Junior,5661,9,80,8,No,Yes,28,0
+27,24,Male,Master,Operations,Senior,7244,11,74,5,No,No,7,0
+28,28,Female,Bachelor,IT,Middle,4123,10,100,10,Yes,No,5,2
+29,63,Male,Bachelor,IT,Junior,5958,8,100,8,No,No,10,1
+30,28,Female,Master,Finance,Middle,3795,4,93,10,No,No,36,2
+31,47,Female,Bachelor,IT,Manager,4238,6,81,9,No,No,29,2
+32,61,Female,PhD,IT,Manager,8243,7,75,10,No,No,16,0
+33,63,Male,Master,Finance,Junior,3209,19,80,9,No,No,3,2
+34,29,Female,Bachelor,Marketing,Manager,6118,18,70,7,No,Yes,40,0
+35,49,Male,High School,Marketing,Senior,5849,11,75,7,No,No,39,0
+36,64,Female,Master,Finance,Junior,7742,5,63,9,No,No,35,0
+37,50,Female,Bachelor,Marketing,Manager,7105,16,88,5,No,No,16,1
+38,62,Female,Master,Finance,Middle,8664,14,79,9,No,No,30,0
+39,30,Male,Master,IT,Middle,3331,12,97,7,No,No,22,1
+40,35,Male,Bachelor,Operations,Middle,2194,13,66,8,Yes,No,26,2
+41,48,Male,Bachelor,Finance,Middle,5871,4,84,5,No,No,30,1
+42,62,Male,Bachelor,IT,Junior,2748,16,62,7,No,No,13,0
+43,27,Male,Bachelor,Operations,Senior,3295,11,74,4,No,No,39,1
+44,49,Female,Master,Operations,Junior,3797,3,70,4,No,Yes,36,0
+45,31,Male,Bachelor,Marketing,Middle,6292,10,95,7,No,No,35,1
+46,58,Female,Master,IT,Senior,5635,15,60,9,Yes,No,12,0
+47,35,Female,Master,Marketing,Senior,2000,18,91,5,No,No,28,1
+48,37,Male,Master,HR,Senior,7168,15,66,9,Yes,No,29,0
+49,56,Female,Bachelor,IT,Middle,9275,1,67,7,Yes,No,17,0
+50,35,Female,Bachelor,Marketing,Middle,7546,10,94,8,Yes,No,8,1
+51,52,Male,Bachelor,Finance,Junior,6882,17,86,7,No,No,3,1
+52,31,Male,Bachelor,IT,Junior,4695,16,76,8,Yes,Yes,39,2
+53,25,Male,Bachelor,IT,Junior,5516,11,80,7,No,No,34,0
+54,30,Female,Bachelor,Operations,Senior,4668,16,86,8,No,No,1,1
+55,61,Male,Master,Marketing,Junior,2000,11,61,6,Yes,Yes,23,0
+56,52,Male,Master,Finance,Junior,2505,8,100,7,Yes,No,1,1
+57,36,Female,Bachelor,IT,Middle,5087,14,99,10,No,No,36,2
+58,45,Male,Bachelor,Finance,Senior,4882,3,71,7,No,No,23,0
+59,61,Male,Master,HR,Middle,5748,8,63,7,No,No,35,0
+60,28,Female,High School,Finance,Middle,2000,13,69,8,No,No,23,2
+61,32,Female,Bachelor,HR,Manager,7829,5,94,8,No,No,34,1
+62,39,Female,Master,Operations,Middle,4801,9,99,6,Yes,No,4,1
+63,27,Male,Bachelor,Marketing,Senior,5509,1,78,6,Yes,Yes,26,0
+64,64,Male,Bachelor,HR,Junior,8917,3,60,8,No,No,16,0
+65,60,Female,Bachelor,Marketing,Middle,6216,6,74,10,Yes,No,37,2
+66,49,Female,Master,IT,Junior,5368,14,70,9,No,No,37,2
+67,49,Male,High School,IT,Senior,3512,1,88,8,No,No,5,2
+68,30,Female,High School,HR,Middle,2000,19,74,6,No,No,32,1
+69,60,Female,Bachelor,Marketing,Middle,2532,16,77,9,No,Yes,0,2
+70,57,Female,Master,Marketing,Middle,3957,15,89,8,No,No,21,1
+71,64,Male,Bachelor,Finance,Middle,5775,10,96,6,Yes,No,26,1
+72,61,Male,High School,IT,Junior,3828,17,88,7,No,No,17,1
+73,50,Female,Master,Operations,Senior,5548,10,61,8,No,Yes,2,0
+74,35,Male,Bachelor,Finance,Middle,2000,2,87,9,No,Yes,33,2
+75,56,Male,Master,Operations,Middle,4717,3,100,8,No,No,32,1
+76,56,Female,Bachelor,Finance,Junior,5261,16,69,7,No,No,0,0
+77,57,Male,Bachelor,Finance,Junior,7653,7,90,8,No,No,8,1
+78,56,Female,High School,Operations,Middle,6056,1,93,7,No,No,35,1
+79,34,Female,Bachelor,IT,Junior,5854,16,88,7,No,No,36,1
+80,27,Female,Master,Operations,Middle,5094,17,86,5,Yes,No,21,1
+81,46,Female,Master,HR,Junior,8295,18,69,8,No,No,0,0
+82,35,Male,Master,Marketing,Senior,4026,14,100,5,Yes,No,25,1
+83,27,Female,Master,Finance,Middle,5454,13,63,6,No,Yes,39,0
+84,28,Female,Bachelor,HR,Middle,5079,4,60,4,Yes,No,4,0
+85,54,Male,Bachelor,Finance,Middle,8750,18,71,6,Yes,No,13,0
+86,33,Female,High School,HR,Manager,5163,8,63,5,No,No,16,0
+87,51,Male,Bachelor,Operations,Middle,3348,13,71,6,Yes,No,18,0
+88,35,Female,High School,Operations,Middle,2782,4,88,6,No,Yes,1,1
+89,54,Female,Bachelor,Operations,Middle,3219,18,86,6,No,No,30,1
+90,59,Female,High School,Finance,Manager,5218,8,81,8,No,No,4,2
+91,36,Female,Master,Marketing,Middle,6059,10,88,6,No,No,16,1
+92,60,Male,High School,Marketing,Middle,6184,13,83,10,No,Yes,6,2
+93,45,Male,Bachelor,IT,Middle,8118,9,83,8,No,No,14,0
+94,46,Female,Master,IT,Senior,6180,15,83,5,Yes,No,15,1
+95,34,Male,Bachelor,IT,Junior,6355,8,79,5,Yes,No,33,0
+96,59,Female,High School,Finance,Junior,10209,7,90,9,Yes,No,13,0
+97,34,Male,Bachelor,IT,Middle,3962,13,98,8,Yes,No,27,1
+98,61,Male,Bachelor,Marketing,Middle,4622,15,83,8,Yes,Yes,38,2
+99,63,Male,Bachelor,IT,Middle,3361,14,67,7,Yes,No,0,0
+100,51,Female,Bachelor,IT,Junior,6587,10,99,9,No,Yes,7,1
+101,26,Female,Bachelor,IT,Junior,4229,5,68,9,No,No,34,2
+102,42,Male,Bachelor,HR,Director,4792,5,93,7,No,No,8,1
+103,25,Female,Bachelor,IT,Middle,6348,9,63,7,Yes,No,7,0
+104,46,Female,Bachelor,Operations,Junior,3236,14,66,5,Yes,No,17,0
+105,27,Male,Bachelor,Finance,Middle,2674,6,94,8,Yes,No,12,1
+106,29,Female,Bachelor,HR,Manager,2703,3,78,7,No,No,6,2
+107,34,Male,Master,IT,Middle,6159,10,99,6,No,Yes,8,1
+108,26,Female,Master,IT,Junior,5489,19,91,6,No,No,3,1
+109,47,Female,High School,Finance,Junior,4381,6,90,10,No,Yes,35,2
+110,42,Female,High School,Operations,Middle,6538,18,64,9,No,No,40,0
+111,28,Male,Bachelor,Marketing,Junior,6753,4,79,8,No,No,3,0
+112,55,Male,High School,Marketing,Junior,5894,13,92,8,Yes,No,36,1
+113,34,Male,Bachelor,IT,Middle,4267,16,65,7,Yes,No,23,0
+114,48,Male,Bachelor,Operations,Senior,4337,7,83,7,Yes,No,20,1
+115,28,Male,Bachelor,IT,Middle,5758,3,72,7,No,No,33,0
+116,41,Female,Master,IT,Middle,4158,11,86,6,No,No,21,1
+117,51,Male,Master,Operations,Middle,5934,18,67,8,No,No,36,0
+118,50,Male,Bachelor,Operations,Junior,3787,18,80,7,Yes,No,40,1
+119,54,Male,High School,IT,Middle,5481,11,76,8,Yes,No,10,0
+120,26,Male,Master,Finance,Middle,6157,19,82,8,No,No,24,0
+121,44,Male,Master,IT,Middle,6108,13,71,9,No,No,25,0
+122,50,Male,Master,Finance,Middle,7448,16,91,9,Yes,No,26,1
+123,56,Female,Master,Finance,Middle,7367,9,76,7,Yes,No,1,0
+124,30,Female,Bachelor,IT,Middle,8075,2,75,6,No,No,31,0
+125,22,Male,High School,Operations,Junior,4780,14,86,6,No,No,13,1
+126,53,Female,Bachelor,IT,Middle,4172,17,88,6,No,Yes,9,1
+127,34,Female,Master,Marketing,Junior,3653,5,69,6,No,No,40,0
+128,38,Female,PhD,IT,Junior,2813,9,81,10,No,No,20,2
+129,45,Male,Master,IT,Manager,8548,2,69,7,No,Yes,38,0
+130,37,Male,Bachelor,IT,Junior,2844,7,85,10,No,No,31,2
+131,60,Female,Bachelor,Operations,Manager,4630,16,75,7,No,Yes,39,0
+132,37,Female,Bachelor,Operations,Junior,2300,9,82,8,No,No,38,2
+133,35,Male,Bachelor,Operations,Middle,4101,7,69,6,Yes,No,30,0
+134,50,Female,PhD,IT,Senior,6501,2,70,9,No,No,36,0
+135,41,Female,Bachelor,Operations,Middle,4896,13,88,9,Yes,No,33,2
+136,57,Male,Bachelor,Finance,Senior,2000,9,97,7,Yes,No,0,1
+137,40,Male,Bachelor,Marketing,Middle,2000,8,100,7,No,No,11,1
+138,42,Male,Bachelor,IT,Junior,5053,7,92,7,Yes,No,6,1
+139,37,Female,Bachelor,Marketing,Middle,6974,9,95,5,Yes,Yes,5,1
+140,40,Male,Bachelor,Operations,Senior,5152,8,89,8,No,No,12,1
+141,31,Female,Bachelor,Finance,Junior,3906,18,98,7,No,No,38,1
+142,34,Male,Bachelor,Finance,Junior,2000,19,86,7,No,No,28,1
+143,57,Male,High School,Marketing,Middle,5787,12,81,7,Yes,No,5,1
+144,50,Female,Bachelor,HR,Manager,4736,10,80,7,Yes,No,33,1
+145,45,Male,Bachelor,Operations,Junior,5002,14,98,9,No,No,15,1
+146,51,Male,Bachelor,HR,Junior,5314,3,80,7,Yes,Yes,1,1
+147,39,Male,Master,IT,Junior,4787,2,71,8,No,Yes,4,0
+148,27,Female,Master,Marketing,Middle,5439,15,75,5,No,No,31,0
+149,45,Male,Bachelor,IT,Senior,6661,11,80,7,Yes,No,37,0
+150,55,Male,Bachelor,IT,Middle,2169,8,75,2,No,No,9,1
+151,57,Female,Bachelor,Finance,Middle,2013,13,66,6,Yes,No,32,0
+152,54,Female,Bachelor,Marketing,Director,5687,18,68,8,No,No,20,0
+153,41,Male,Master,Operations,Middle,4091,16,77,8,Yes,No,31,2
+154,55,Male,Bachelor,HR,Middle,8209,13,91,9,Yes,No,34,1
+155,52,Male,Bachelor,Operations,Junior,5823,1,74,8,Yes,No,40,0
+156,50,Male,High School,Finance,Middle,3064,3,94,7,No,Yes,32,1
+157,38,Female,Master,IT,Middle,2000,2,63,9,No,No,21,2
+158,28,Female,Master,HR,Middle,4990,9,79,8,No,No,23,2
+159,48,Male,Master,IT,Middle,4931,3,90,8,Yes,No,39,1
+160,53,Female,Bachelor,IT,Junior,2000,5,95,8,Yes,No,11,1
+161,33,Male,Bachelor,HR,Middle,2441,19,70,9,No,No,1,2
+162,39,Female,Master,HR,Middle,4779,12,62,10,Yes,No,29,2
+163,62,Female,Bachelor,Marketing,Junior,2984,3,76,9,No,No,14,2
+164,33,Male,Bachelor,IT,Junior,4549,9,82,5,Yes,Yes,19,1
+165,32,Female,Bachelor,IT,Junior,4903,19,96,7,No,Yes,40,1
+166,59,Male,Master,Operations,Junior,4539,5,78,7,No,No,14,0
+167,49,Male,Bachelor,Operations,Manager,3388,3,86,8,No,No,24,2
+168,38,Female,Bachelor,IT,Junior,3094,10,83,6,Yes,No,16,1
+169,22,Female,Bachelor,Marketing,Middle,2002,2,76,9,No,No,23,2
+170,52,Female,Master,Operations,Junior,5069,9,61,6,Yes,Yes,29,0
+171,63,Male,Bachelor,IT,Junior,2279,11,62,9,No,No,28,2
+172,57,Male,Bachelor,IT,Middle,6141,13,81,9,Yes,No,4,2
+173,48,Male,Bachelor,Marketing,Junior,3471,6,87,9,No,No,40,2
+174,57,Female,Bachelor,Marketing,Senior,2000,8,76,8,No,No,24,2
+175,29,Male,Bachelor,IT,Senior,8655,11,94,5,No,No,23,1
+176,25,Male,Bachelor,Operations,Junior,4159,4,98,7,No,No,10,1
+177,55,Male,Bachelor,Finance,Senior,5116,11,75,9,Yes,Yes,0,2
+178,61,Male,Bachelor,Marketing,Middle,2000,10,84,10,Yes,No,23,2
+179,36,Male,Master,HR,Middle,11841,16,68,10,Yes,Yes,0,0
+180,47,Male,Bachelor,IT,Junior,9986,17,63,8,No,Yes,17,0
+181,51,Female,High School,Operations,Senior,7193,7,94,8,No,No,2,1
+182,36,Female,High School,Operations,Junior,7261,18,67,7,Yes,Yes,11,0
+183,53,Male,Master,IT,Manager,6990,13,66,9,No,No,16,0
+184,30,Male,Bachelor,Marketing,Senior,4165,18,60,9,No,No,35,2
+185,35,Male,Bachelor,Finance,Manager,6004,9,66,8,No,No,34,0
+186,61,Female,Bachelor,IT,Junior,4587,7,81,5,Yes,No,30,1
+187,45,Female,Bachelor,IT,Middle,5426,14,73,10,No,No,22,2
+188,55,Male,Master,IT,Manager,6040,11,74,8,No,Yes,10,0
+189,54,Male,Master,IT,Middle,4181,10,89,10,No,No,40,2
+190,58,Male,Master,IT,Senior,4637,6,91,8,No,No,16,1
+191,24,Male,Master,HR,Senior,3215,13,63,9,Yes,No,28,2
+192,57,Male,Bachelor,Finance,Middle,2856,16,72,10,No,Yes,28,2
+193,37,Female,Bachelor,Marketing,Senior,5978,19,83,7,Yes,No,12,1
+194,37,Male,PhD,Marketing,Middle,5245,2,80,7,No,No,32,1
+195,61,Male,High School,Marketing,Junior,2000,6,77,8,No,No,0,2
+196,48,Female,Bachelor,HR,Junior,4222,7,66,9,Yes,No,4,2
+197,61,Female,Bachelor,Operations,Junior,8753,14,95,7,Yes,No,10,1
+198,51,Female,Master,IT,Middle,4090,4,61,8,No,No,35,0
+199,23,Male,Bachelor,Marketing,Junior,3350,2,73,10,No,No,6,2
+200,59,Female,Bachelor,HR,Middle,4341,5,99,7,No,No,2,1
+201,38,Female,Bachelor,Operations,Middle,6024,5,95,6,No,No,39,1
+202,35,Female,High School,IT,Middle,7144,8,90,6,No,No,14,1
+203,44,Male,Bachelor,Marketing,Junior,7343,15,69,9,Yes,No,26,0
+204,47,Female,High School,Finance,Middle,8037,13,67,7,No,No,33,0
+205,38,Male,Bachelor,IT,Middle,7468,16,95,7,Yes,No,29,1
+206,49,Female,Master,IT,Middle,6750,2,75,8,Yes,No,11,0
+207,32,Male,High School,IT,Middle,2337,1,68,8,No,No,40,2
+208,29,Male,Bachelor,HR,Middle,5296,6,79,9,Yes,No,2,2
+209,22,Male,Bachelor,Operations,Middle,3540,9,87,6,No,No,30,1
+210,44,Male,High School,Marketing,Junior,2909,3,79,9,No,No,25,2
+211,39,Female,Master,Marketing,Senior,2378,12,93,6,Yes,No,4,1
+212,47,Female,High School,Finance,Middle,4409,16,69,8,Yes,No,27,2
+213,33,Female,Master,IT,Middle,7716,10,93,7,No,No,32,1
+214,62,Male,Bachelor,Marketing,Junior,9185,8,97,6,No,No,24,1
+215,22,Male,Bachelor,Operations,Junior,8202,14,80,7,No,Yes,5,0
+216,38,Male,Master,Finance,Middle,2000,1,87,9,No,No,19,2
+217,63,Male,Bachelor,Operations,Manager,8587,4,75,8,No,Yes,10,0
+218,50,Male,PhD,Operations,Middle,7738,4,73,10,No,No,2,0
+219,27,Male,PhD,Marketing,Senior,5801,12,86,8,No,No,19,1
+220,49,Female,Bachelor,IT,Middle,2000,9,63,7,Yes,No,12,2
+221,62,Male,Master,Marketing,Middle,5313,2,77,6,No,No,17,0
+222,45,Male,Master,IT,Middle,4743,14,74,10,Yes,No,7,2
+223,39,Female,Master,IT,Middle,12588,4,91,6,No,No,37,0
+224,47,Male,Bachelor,Finance,Junior,5741,4,85,6,Yes,No,11,1
+225,44,Male,Bachelor,Operations,Middle,6070,7,69,7,No,Yes,40,0
+226,64,Male,Bachelor,HR,Middle,5832,5,60,7,Yes,No,37,0
+227,48,Male,Bachelor,IT,Middle,5916,12,96,8,No,No,10,1
+228,63,Male,Bachelor,Operations,Junior,7434,19,60,9,Yes,No,5,0
+229,49,Male,Master,Marketing,Middle,3400,5,83,7,No,No,2,1
+230,56,Female,Bachelor,IT,Middle,4532,17,93,6,Yes,No,20,1
+231,28,Female,Bachelor,Marketing,Senior,7399,1,61,5,No,No,27,0
+232,55,Male,Master,IT,Junior,2142,9,69,10,No,No,22,2
+233,54,Male,Bachelor,Operations,Manager,4379,14,66,7,No,No,14,0
+234,28,Female,High School,IT,Senior,5917,3,72,8,No,No,14,0
+235,48,Male,High School,Finance,Middle,3738,1,86,5,No,No,14,1
+236,39,Male,Master,Finance,Manager,4053,8,99,7,No,No,3,1
+237,47,Female,Bachelor,IT,Junior,5526,8,79,8,No,No,9,0
+238,36,Male,Master,Marketing,Senior,2000,5,79,10,No,Yes,3,2
+239,52,Male,High School,Finance,Manager,3118,11,77,9,Yes,Yes,25,2
+240,39,Male,Bachelor,Operations,Middle,5957,6,86,7,Yes,No,8,1
+241,30,Female,Bachelor,Finance,Senior,6265,18,85,6,No,No,15,1
+242,58,Female,Bachelor,HR,Manager,7608,18,62,7,Yes,No,9,0
+243,32,Male,Bachelor,Operations,Junior,2000,14,93,4,No,Yes,0,1
+244,32,Female,Bachelor,Finance,Senior,4607,9,75,9,Yes,No,1,2
+245,34,Male,High School,Finance,Junior,3129,1,92,5,Yes,Yes,33,1
+246,36,Female,PhD,Marketing,Middle,7716,10,71,9,Yes,No,32,0
+247,40,Female,Bachelor,Finance,Manager,2000,5,98,7,No,Yes,5,1
+248,23,Male,Bachelor,IT,Junior,8744,19,65,7,No,Yes,12,0
+249,23,Female,Bachelor,HR,Middle,3551,1,72,9,Yes,No,18,2
+250,61,Female,Bachelor,Marketing,Middle,7750,12,77,9,No,Yes,37,0
+251,51,Male,High School,Marketing,Middle,3848,2,69,8,No,No,0,2
+252,62,Male,Master,IT,Junior,2191,18,81,8,No,No,0,2
+253,23,Female,Bachelor,Marketing,Junior,4597,6,93,7,No,No,18,1
+254,25,Male,Bachelor,Marketing,Middle,7725,16,91,8,Yes,No,17,1
+255,44,Male,Bachelor,Marketing,Junior,8436,2,71,7,No,No,28,0
+256,43,Male,High School,IT,Junior,7419,14,72,7,No,No,13,0
+257,43,Female,Bachelor,IT,Middle,6847,5,86,7,Yes,No,39,1
+258,52,Female,PhD,IT,Junior,4460,2,99,9,Yes,No,21,1
+259,64,Female,High School,IT,Middle,2455,9,83,9,No,No,25,2
+260,64,Female,Master,Marketing,Senior,2000,14,72,9,No,Yes,1,2
+261,50,Male,Bachelor,Marketing,Senior,9161,17,68,9,Yes,No,25,0
+262,47,Female,Bachelor,IT,Middle,2702,12,88,6,Yes,No,2,1
+263,50,Female,Bachelor,IT,Middle,3669,16,95,9,No,No,22,2
+264,23,Female,Bachelor,Finance,Senior,7351,3,81,10,No,No,4,2
+265,26,Female,Bachelor,Finance,Middle,2000,7,85,5,Yes,No,37,1
+266,24,Female,Master,IT,Junior,3682,14,81,6,Yes,Yes,20,1
+267,46,Male,Master,Finance,Senior,2000,16,64,9,No,Yes,5,2
+268,49,Male,High School,IT,Director,4239,5,93,6,Yes,No,25,1
+269,42,Female,Bachelor,Finance,Middle,5832,12,80,7,No,No,36,0
+270,60,Female,Bachelor,Operations,Senior,8266,4,70,8,No,No,23,0
+271,59,Female,Master,IT,Manager,4431,7,73,8,Yes,No,16,2
+272,48,Female,High School,IT,Senior,4303,19,92,8,No,No,1,1
+273,60,Male,Bachelor,Operations,Junior,4103,10,64,5,Yes,No,18,0
+274,57,Female,High School,IT,Senior,3897,4,85,6,No,No,9,1
+275,46,Male,High School,HR,Middle,7874,3,61,7,No,No,13,0
+276,54,Male,High School,Marketing,Junior,4940,17,70,8,No,No,25,0
+277,56,Female,Master,IT,Middle,3614,8,97,7,No,Yes,4,1
+278,55,Female,High School,Operations,Middle,7085,12,78,6,Yes,Yes,9,0
+279,22,Female,Bachelor,Operations,Junior,4076,4,70,8,No,No,30,2
+280,39,Male,High School,IT,Junior,2788,10,99,8,No,No,34,1
+281,24,Male,Master,HR,Manager,4222,14,71,9,No,No,38,2
+282,34,Female,Bachelor,Finance,Middle,4321,3,82,7,Yes,No,18,1
+283,56,Male,Bachelor,IT,Manager,6528,2,88,8,No,No,19,1
+284,63,Male,Bachelor,Marketing,Junior,6838,4,63,10,No,No,35,0
+285,28,Male,Master,IT,Manager,4129,9,62,7,No,No,8,0
+286,43,Female,Bachelor,Finance,Director,5334,16,89,8,No,No,26,1
+287,55,Male,Master,IT,Manager,6220,12,93,8,No,No,1,1
+288,38,Female,Bachelor,IT,Middle,5646,19,75,6,No,No,5,0
+289,59,Male,Bachelor,Operations,Middle,6640,13,88,8,No,No,1,1
+290,64,Female,Bachelor,Finance,Junior,4871,9,83,9,Yes,No,33,2
+291,46,Female,Master,Marketing,Senior,6554,15,94,5,Yes,No,26,1
+292,53,Male,Bachelor,Operations,Junior,8202,8,85,7,No,No,26,0
+293,64,Male,Bachelor,Finance,Manager,4213,10,85,6,No,No,8,1
+294,53,Male,Bachelor,Operations,Middle,4990,3,79,7,No,No,34,0
+295,42,Male,Bachelor,Operations,Senior,4642,10,83,7,No,Yes,33,1
+296,52,Male,Bachelor,Operations,Middle,9230,2,63,10,Yes,Yes,35,0
+297,56,Female,Bachelor,Operations,Middle,4165,10,77,10,Yes,No,33,2
+298,35,Male,Master,Finance,Middle,6247,12,100,6,Yes,No,27,1
+299,49,Male,High School,Finance,Senior,6654,2,72,5,No,No,16,0
+300,27,Female,Master,Operations,Junior,7189,16,66,7,Yes,No,12,0
+301,58,Male,Bachelor,Marketing,Senior,8024,5,80,7,No,Yes,7,0
+302,49,Female,Master,IT,Senior,5425,13,63,8,No,No,17,0
+303,64,Male,Bachelor,IT,Junior,7479,1,97,9,Yes,No,10,1
+304,41,Female,Bachelor,IT,Senior,3320,5,84,9,Yes,Yes,30,2
+305,55,Male,Master,IT,Middle,4053,6,95,6,Yes,No,36,1
+306,44,Male,Master,Finance,Middle,6601,7,80,7,No,Yes,8,0
+307,57,Female,Bachelor,HR,Middle,5639,12,89,6,Yes,No,18,1
+308,25,Female,Master,Marketing,Middle,4726,11,75,8,No,No,22,2
+309,29,Female,PhD,HR,Senior,6546,6,66,10,No,No,28,2
+310,53,Female,Master,Operations,Middle,8528,5,99,6,No,No,9,1
+311,24,Male,Bachelor,Finance,Director,4719,19,67,7,Yes,No,10,0
+312,55,Male,Bachelor,IT,Junior,6679,16,88,9,No,No,35,2
+313,35,Female,High School,Marketing,Junior,6393,3,92,10,No,No,18,2
+314,30,Male,Master,Finance,Manager,4378,11,65,6,Yes,No,4,0
+315,54,Male,High School,Marketing,Senior,4702,14,66,6,No,No,38,0
+316,61,Male,Master,Finance,Senior,4226,12,91,8,Yes,No,36,1
+317,26,Male,Master,Marketing,Junior,5849,19,98,7,No,No,16,1
+318,49,Male,Master,Marketing,Junior,5771,11,85,9,Yes,No,30,2
+319,31,Female,Master,Operations,Middle,7797,8,80,9,Yes,No,32,0
+320,33,Female,Bachelor,Marketing,Middle,5124,5,67,8,No,No,40,0
+321,29,Female,Master,Finance,Senior,5085,6,86,9,No,Yes,9,2
+322,46,Female,Bachelor,Operations,Middle,2311,1,89,9,Yes,No,38,2
+323,28,Male,PhD,IT,Middle,4455,2,83,7,Yes,No,17,1
+324,50,Male,High School,Operations,Junior,4142,9,66,9,No,No,19,2
+325,51,Male,Master,HR,Junior,7997,4,72,7,No,No,4,0
+326,62,Female,Bachelor,Finance,Middle,6824,6,72,7,No,No,12,0
+327,34,Male,PhD,Marketing,Senior,6412,13,62,8,No,No,17,0
+328,46,Male,Bachelor,Finance,Junior,4838,2,82,7,No,No,27,1
+329,52,Male,High School,Finance,Junior,4505,11,62,8,No,Yes,37,0
+330,53,Male,High School,HR,Junior,3544,2,92,7,Yes,No,34,1
+331,60,Female,Master,HR,Middle,8915,2,67,10,No,No,21,0
+332,41,Female,Bachelor,IT,Junior,3623,10,61,8,No,Yes,4,2
+333,41,Female,Master,IT,Senior,7208,13,70,5,No,No,36,0
+334,49,Male,Master,Operations,Senior,6441,15,74,8,No,No,7,0
+335,41,Female,Bachelor,IT,Senior,2000,12,87,8,Yes,No,23,2
+336,29,Female,Bachelor,IT,Middle,5450,3,90,8,No,Yes,33,1
+337,33,Female,Master,Marketing,Junior,4261,15,100,9,No,No,31,1
+338,39,Male,Bachelor,Finance,Middle,4765,18,74,5,Yes,No,11,0
+339,64,Male,High School,Operations,Senior,2000,18,63,8,No,No,12,2
+340,53,Female,High School,Marketing,Senior,4293,1,74,5,Yes,No,14,0
+341,60,Male,Bachelor,IT,Junior,4746,8,76,5,No,No,15,0
+342,22,Male,High School,HR,Manager,2830,19,73,7,No,Yes,31,2
+343,45,Female,Bachelor,IT,Middle,4753,18,76,8,No,No,16,2
+344,57,Female,Bachelor,IT,Manager,7720,1,95,6,Yes,No,13,1
+345,25,Male,High School,Finance,Middle,2818,18,60,8,No,Yes,26,2
+346,26,Female,Bachelor,Operations,Junior,5060,4,79,10,Yes,No,0,2
+347,41,Male,Bachelor,Operations,Junior,4639,5,84,6,Yes,Yes,0,1
+348,55,Female,Bachelor,IT,Junior,2000,4,87,7,No,No,5,1
+349,49,Male,High School,Operations,Middle,5639,3,88,8,No,No,5,1
+350,35,Female,Master,IT,Middle,5652,8,77,8,No,No,20,0
+351,59,Male,Bachelor,Marketing,Middle,7618,4,90,7,No,Yes,26,1
+352,41,Male,PhD,Operations,Senior,4089,4,76,7,No,No,8,0
+353,32,Male,High School,IT,Middle,4304,19,70,7,Yes,Yes,34,0
+354,51,Male,Master,Operations,Senior,5125,5,60,8,Yes,No,7,0
+355,56,Male,Master,Marketing,Manager,2000,16,65,7,Yes,Yes,14,2
+356,60,Female,Bachelor,HR,Middle,5526,8,92,6,No,No,26,1
+357,38,Male,Master,Operations,Junior,5167,18,77,10,Yes,No,39,2
+358,45,Female,Master,Marketing,Junior,7754,8,97,8,Yes,Yes,24,1
+359,33,Male,Bachelor,Operations,Junior,4173,6,93,8,Yes,No,0,1
+360,56,Female,High School,IT,Senior,3452,18,90,9,No,No,31,2
+361,28,Female,Bachelor,Finance,Junior,6549,11,90,9,Yes,No,15,1
+362,50,Male,Bachelor,HR,Middle,6307,8,64,9,No,No,0,0
+363,25,Female,Bachelor,Operations,Junior,8332,15,74,10,No,No,28,0
+364,29,Male,High School,Finance,Middle,4834,16,92,7,No,No,8,1
+365,33,Male,Master,Finance,Junior,5196,2,83,9,No,No,28,2
+366,63,Female,Bachelor,Marketing,Senior,5254,7,72,6,No,No,4,0
+367,43,Male,High School,Operations,Senior,2604,6,100,8,Yes,No,31,1
+368,30,Female,Master,IT,Middle,2000,2,74,5,Yes,No,8,1
+369,39,Female,Master,Finance,Middle,2000,4,71,10,No,No,37,2
+370,28,Male,High School,Operations,Manager,4956,14,96,7,Yes,No,32,1
+371,29,Male,High School,HR,Middle,6972,3,91,8,No,No,32,1
+372,63,Male,Bachelor,IT,Senior,5622,15,77,7,Yes,No,35,0
+373,48,Male,Bachelor,Operations,Junior,7129,6,93,8,No,No,26,1
+374,63,Male,Master,Finance,Junior,4132,15,65,5,No,No,39,0
+375,37,Female,Bachelor,Finance,Junior,5009,18,83,10,No,Yes,7,2
+376,46,Male,Bachelor,Marketing,Senior,7861,2,63,5,No,No,2,0
+377,40,Female,Master,Operations,Middle,6236,3,100,7,No,Yes,32,1
+378,55,Male,Bachelor,Operations,Junior,4122,9,63,6,No,Yes,2,0
+379,35,Male,Bachelor,Finance,Junior,2382,7,77,9,No,No,28,2
+380,52,Female,Bachelor,Operations,Junior,7868,2,72,7,Yes,Yes,5,0
+381,32,Female,Bachelor,Operations,Middle,2000,11,78,5,Yes,Yes,19,1
+382,36,Female,Bachelor,IT,Middle,7128,14,88,6,Yes,No,1,1
+383,39,Female,High School,Marketing,Middle,5639,5,99,5,Yes,Yes,38,1
+384,31,Female,Bachelor,Marketing,Middle,4696,19,61,6,No,No,12,0
+385,37,Male,High School,Operations,Middle,6093,4,63,6,No,No,1,0
+386,45,Male,PhD,HR,Senior,4629,16,86,7,Yes,No,2,1
+387,37,Female,PhD,Operations,Middle,3479,19,75,5,No,No,17,1
+388,49,Female,Bachelor,IT,Manager,7126,6,98,7,Yes,Yes,33,1
+389,39,Female,High School,Marketing,Middle,2970,18,97,8,No,No,19,1
+390,53,Female,Bachelor,Operations,Middle,6870,11,71,7,Yes,No,23,0
+391,31,Male,Master,Operations,Middle,6191,2,94,7,No,No,18,1
+392,41,Female,High School,IT,Middle,5855,19,95,9,No,No,7,1
+393,56,Male,Bachelor,Marketing,Junior,4133,1,69,9,No,No,24,2
+394,36,Male,Bachelor,Marketing,Senior,6296,14,87,10,No,No,36,2
+395,30,Female,Master,Finance,Junior,4073,13,74,8,No,Yes,2,2
+396,37,Female,Bachelor,IT,Middle,3435,1,87,7,No,No,27,1
+397,24,Female,Bachelor,Marketing,Middle,2922,17,74,5,Yes,No,27,1
+398,24,Female,Bachelor,Operations,Middle,6717,4,94,8,No,Yes,10,1
+399,30,Male,Bachelor,IT,Senior,4433,19,82,10,No,No,15,2
+400,45,Female,Bachelor,IT,Middle,4047,18,82,10,No,No,19,2
+401,52,Male,High School,Operations,Junior,3894,11,76,8,No,No,11,2
+402,48,Female,High School,Marketing,Senior,3671,5,98,7,No,No,37,1
+403,55,Male,Bachelor,Operations,Middle,2974,5,64,8,No,No,1,2
+404,42,Female,Bachelor,Operations,Middle,4815,2,68,7,Yes,Yes,29,0
+405,31,Female,Bachelor,Marketing,Middle,2000,19,61,6,No,Yes,28,0
+406,30,Male,Master,Finance,Junior,5521,7,91,6,No,No,11,1
+407,51,Female,Bachelor,Marketing,Middle,4657,8,78,7,No,No,20,0
+408,27,Female,Bachelor,IT,Middle,9349,5,98,8,No,No,10,1
+409,25,Male,Bachelor,Finance,Senior,8169,16,81,10,Yes,No,36,0
+410,22,Female,High School,IT,Junior,6110,2,63,7,Yes,No,13,0
+411,54,Female,Bachelor,IT,Middle,6706,8,73,9,No,No,24,0
+412,58,Female,High School,Marketing,Senior,2494,6,83,8,No,No,39,2
+413,33,Female,Bachelor,IT,Middle,4711,13,63,8,No,No,36,0
+414,61,Female,Bachelor,Finance,Junior,6566,1,60,5,Yes,Yes,20,0
+415,51,Male,Master,Finance,Middle,5517,11,94,5,No,No,19,1
+416,41,Male,Bachelor,IT,Junior,8449,15,80,10,No,No,29,0
+417,38,Female,Bachelor,HR,Middle,4506,8,99,8,Yes,No,20,1
+418,63,Male,Master,IT,Manager,4072,14,69,8,No,No,39,2
+419,33,Female,Bachelor,Finance,Junior,4992,13,73,7,No,No,3,0
+420,43,Male,Master,IT,Junior,6336,3,99,9,No,No,40,1
+421,33,Female,Bachelor,Finance,Middle,7362,7,80,9,No,Yes,6,0
+422,40,Male,Bachelor,HR,Junior,2706,17,66,9,No,No,23,2
+423,54,Male,High School,HR,Middle,6707,15,60,7,No,Yes,38,0
+424,49,Male,Bachelor,Operations,Middle,4160,6,85,9,No,No,18,2
+425,29,Female,Bachelor,IT,Middle,3027,7,78,9,No,Yes,0,2
+426,49,Female,Bachelor,IT,Director,5499,10,92,7,No,No,20,1
+427,26,Female,Master,Operations,Junior,2992,17,92,5,No,No,4,1
+428,52,Male,Bachelor,Finance,Senior,5352,10,73,7,No,No,26,0
+429,47,Female,Bachelor,Operations,Junior,5015,5,89,4,No,No,40,1
+430,37,Male,High School,Finance,Middle,5881,7,65,10,No,No,38,2
+431,24,Female,Master,Marketing,Middle,5664,1,97,6,Yes,Yes,29,1
+432,25,Female,Bachelor,Finance,Junior,5352,11,99,9,No,No,20,1
+433,30,Male,Bachelor,Finance,Senior,4954,7,93,7,No,No,11,1
+434,36,Female,Bachelor,Operations,Junior,4306,5,64,8,No,Yes,31,0
+435,40,Female,Master,IT,Manager,4287,1,99,9,No,Yes,31,1
+436,40,Male,Bachelor,HR,Manager,3582,16,62,8,Yes,Yes,20,2
+437,37,Male,Bachelor,IT,Senior,7041,6,81,10,No,Yes,37,2
+438,32,Male,High School,IT,Middle,7069,5,89,8,No,No,27,1
+439,43,Male,Bachelor,IT,Middle,4212,3,67,8,No,Yes,3,2
+440,33,Male,High School,IT,Junior,2567,7,75,9,No,No,27,2
+441,44,Male,Bachelor,HR,Junior,2000,8,82,9,No,Yes,9,2
+442,55,Female,Master,HR,Junior,8213,18,60,9,No,No,10,0
+443,33,Male,Bachelor,IT,Manager,7311,9,83,10,Yes,No,36,2
+444,32,Female,Master,Operations,Senior,3077,19,78,8,No,No,17,2
+445,55,Male,Master,IT,Middle,4863,5,81,8,Yes,No,5,2
+446,51,Male,Bachelor,Finance,Senior,6316,2,100,8,Yes,Yes,38,1
+447,26,Female,Master,Finance,Middle,5282,16,63,7,Yes,No,10,0
+448,40,Female,Bachelor,IT,Middle,6358,2,67,8,Yes,No,14,0
+449,48,Male,Bachelor,Marketing,Junior,8596,1,81,9,Yes,No,22,0
+450,60,Male,High School,Marketing,Middle,2827,18,78,6,No,No,30,1
+451,51,Female,Master,IT,Middle,5425,4,74,5,No,No,0,0
+452,60,Female,High School,Operations,Middle,4632,9,69,8,No,No,7,0
+453,36,Female,Bachelor,Operations,Director,2000,17,76,6,No,Yes,11,1
+454,47,Female,Master,Finance,Middle,5131,2,82,10,No,No,10,2
+455,33,Male,Bachelor,IT,Middle,10922,15,60,9,Yes,No,31,0
+456,26,Female,Bachelor,Finance,Senior,2394,15,80,6,Yes,No,4,1
+457,39,Female,Bachelor,Finance,Senior,4407,4,94,5,No,No,1,1
+458,59,Male,Bachelor,Operations,Middle,6501,18,79,10,No,No,33,2
+459,50,Female,High School,IT,Senior,6359,8,72,7,No,No,8,0
+460,26,Male,Bachelor,Finance,Junior,6346,5,99,10,Yes,No,28,2
+461,60,Male,PhD,Marketing,Junior,5539,9,92,8,No,No,26,1
+462,22,Male,Bachelor,Marketing,Junior,2000,13,98,6,No,No,26,1
+463,28,Male,Bachelor,IT,Junior,8490,2,80,7,No,No,40,0
+464,32,Male,High School,HR,Senior,4056,14,80,5,Yes,No,16,1
+465,28,Female,Bachelor,Finance,Middle,9623,17,87,6,No,No,15,0
+466,23,Male,Master,Marketing,Senior,2623,10,100,8,Yes,Yes,10,1
+467,38,Male,High School,IT,Middle,7264,10,93,9,No,No,16,1
+468,61,Male,High School,IT,Junior,6825,3,91,7,No,Yes,3,1
+469,31,Female,Bachelor,HR,Middle,5203,3,89,10,No,No,32,2
+470,52,Male,Bachelor,IT,Junior,7217,10,94,7,Yes,No,38,1
+471,50,Male,Bachelor,IT,Junior,4626,13,67,6,Yes,Yes,15,0
+472,54,Female,Bachelor,IT,Middle,3026,19,66,7,Yes,No,0,0
+473,55,Male,High School,Marketing,Senior,5205,9,83,9,No,No,38,2
+474,32,Female,Bachelor,Operations,Middle,2000,16,94,9,No,No,8,2
+475,48,Male,Bachelor,IT,Middle,3082,3,69,9,Yes,Yes,18,2
+476,38,Male,High School,Finance,Middle,5755,17,60,4,No,No,31,0
+477,43,Male,Bachelor,IT,Middle,3727,14,60,7,No,No,0,0
+478,50,Male,Bachelor,IT,Middle,5365,7,92,6,No,No,18,1
+479,40,Male,Master,Finance,Middle,4068,15,81,8,No,No,22,2
+480,45,Female,Bachelor,Marketing,Junior,9319,14,90,7,No,No,25,1
+481,49,Male,Bachelor,IT,Junior,5972,3,81,6,No,No,14,1
+482,32,Male,Bachelor,Marketing,Senior,5655,16,95,8,Yes,No,37,1
+483,64,Male,Master,IT,Manager,6951,17,84,10,Yes,No,21,2
+484,39,Male,Bachelor,Finance,Middle,5286,14,90,7,No,No,13,1
+485,33,Female,Bachelor,Finance,Junior,5523,12,80,9,No,No,26,2
+486,22,Male,Master,IT,Junior,6233,12,97,8,No,No,32,1
+487,32,Male,Bachelor,Operations,Middle,5840,11,77,7,Yes,No,35,0
+488,30,Male,Master,IT,Middle,6118,8,86,7,Yes,No,32,1
+489,44,Female,Bachelor,Operations,Middle,8116,16,97,9,Yes,No,8,1
+490,59,Male,Bachelor,Marketing,Middle,8068,5,63,7,Yes,No,26,0
+491,44,Female,PhD,Operations,Middle,5753,19,77,7,No,No,25,0
+492,52,Male,Bachelor,IT,Manager,4758,13,77,9,No,Yes,26,2
+493,23,Male,High School,Marketing,Senior,3120,18,88,7,Yes,No,22,1
+494,29,Male,High School,Operations,Junior,6405,19,93,8,No,No,13,1
+495,38,Male,Bachelor,Finance,Middle,2738,9,66,6,No,No,36,0
+496,34,Male,Bachelor,Finance,Middle,6840,13,85,10,No,No,5,2
+497,28,Male,Master,Operations,Middle,3866,3,79,9,No,No,4,2
+498,63,Male,Bachelor,HR,Junior,4104,5,80,10,No,No,13,2
+499,49,Male,Bachelor,IT,Senior,5352,10,95,8,No,No,27,1
+500,39,Male,Bachelor,IT,Middle,7729,3,73,6,No,No,11,0
